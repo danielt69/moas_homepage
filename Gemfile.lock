@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/spree/spree_static_content.git
-  revision: b308a6148d3098eee17e3a2acf79d442d269d5dc
-  branch: 2-3-stable
-  specs:
-    spree_static_content (2.3.0)
-      spree_core (~> 2.3.0)
-
-GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: 4f4a76d4fab7f37702db3bed9caf0b3e10263916
   branch: 2-3-stable
@@ -25,6 +17,14 @@ GIT
   branch: 2-3-stable
   specs:
     spree_gateway (2.3.0.beta)
+      spree_core (~> 2.3.0)
+
+GIT
+  remote: https://github.com/spree/spree_static_content.git
+  revision: 064d2f004c9414a49923b9ca47ae10f3ce0915e0
+  branch: 2-3-stable
+  specs:
+    spree_static_content (2.3.0)
       spree_core (~> 2.3.0)
 
 GEM
@@ -267,12 +267,12 @@ GEM
     state_machine (1.2.0)
     stringex (1.5.1)
     thor (0.19.1)
-    thread_safe (0.3.4)
+    thread_safe (0.3.6)
     tilt (1.4.1)
     truncate_html (0.9.2)
     turbolinks (2.3.0)
       coffee-rails
-    tzinfo (1.2.2)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
