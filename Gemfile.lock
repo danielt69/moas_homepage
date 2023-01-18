@@ -1,12 +1,4 @@
 GIT
-  remote: git://github.com/spree/spree_static_content.git
-  revision: b308a6148d3098eee17e3a2acf79d442d269d5dc
-  branch: 2-3-stable
-  specs:
-    spree_static_content (2.3.0)
-      spree_core (~> 2.3.0)
-
-GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: 4f4a76d4fab7f37702db3bed9caf0b3e10263916
   branch: 2-3-stable
@@ -25,6 +17,14 @@ GIT
   branch: 2-3-stable
   specs:
     spree_gateway (2.3.0.beta)
+      spree_core (~> 2.3.0)
+
+GIT
+  remote: https://github.com/spree/spree_static_content.git
+  revision: 064d2f004c9414a49923b9ca47ae10f3ce0915e0
+  branch: 2-3-stable
+  specs:
+    spree_static_content (2.3.0)
       spree_core (~> 2.3.0)
 
 GEM
@@ -166,7 +166,7 @@ GEM
     polyglot (0.3.5)
     rabl (0.9.4.pre1)
       activesupport (>= 2.3.14)
-    rack (1.5.2)
+    rack (1.5.5)
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.1.6)
